@@ -1,0 +1,77 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+/.idea/
+/.vscode/
+
+# Local agent/tool metadata
+/.agents/
+/.codex/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python packaging and native build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.so
+*.dylib
+*.dll
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Downloaded checkpoints and model caches
+/data/models/
+/checkpoints/
+/weights/
+/pretrained_models/
+/extensions/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+
+# 3DRAG-generated intermediate files and outputs
+**/render/
+**/output/
+**/drag_output/
+**/mask.glb
+**/mask.ply
+**/lazydrag_maps_data_*.json
+**/features.npz
+**/mesh_delete.ply
+**/voxels_delete.ply
+**/st_drag_points.ply
+
+# Gradio and runtime artifacts
+flagged/
+gradio_cached_examples/
+*.log
+
+# Blender backup files (keep intentional .blend source files trackable)
+*.blend1
+*.blend2
+*.blend@
