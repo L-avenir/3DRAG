@@ -4,9 +4,9 @@ This repository is the official open-source implementation of our paper accepted
 
 The original 3DRAG code is released under the [MIT License](LICENSE). Third-party code, models, and dependencies are subject to their respective licenses. Because some third-party components impose non-commercial research restrictions, the complete runtime environment may be suitable only for non-commercial research use.
 
-## 3DRAG-Bench Release Plan
+## 3DRAG-Bench
 
-We plan to release **3DRAG-Bench**, the benchmark introduced in our paper, on Hugging Face. The dataset link, license, and download instructions will be added here once the release is available.
+**3DRAG-Bench**, the dataset introduced in our paper, is now publicly available on Hugging Face: [AeTherRaIn/3DRAG-Bench](https://huggingface.co/datasets/AeTherRaIn/3DRAG-Bench).
 
 ## Installation
 
