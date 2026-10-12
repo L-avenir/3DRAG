@@ -1,5 +1,7 @@
 # 3DRAG: 3D-Native Object Drag Editing with Generative Models
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.13216-b31b1b.svg)](https://arxiv.org/abs/2610.13216)
+
 This repository is the official open-source implementation of our paper accepted by ACM Multimedia 2026 (ACM MM 2026).
 
 The original 3DRAG code is released under the [MIT License](LICENSE). Third-party code, models, and dependencies are subject to their respective licenses. Because some third-party components impose non-commercial research restrictions, the complete runtime environment may be suitable only for non-commercial research use.
